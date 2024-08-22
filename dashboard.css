@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(./img/36d71b48d498f8aa1b903bca2c489cb4.jpg);
+    background-size: cover;
+}
+.flex{
+    display: flex;
+
+}
+.card{
+    width: 500px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top:200px;border-radius: 20px;
+    background-color: transparent;
+    border-width: 10px;
+    
+    
+    
+}
+.card input{
+    width: 300px;
+    margin: 0 auto;
+    background-color: transparent;
+    font-weight: bolder;
+   
+}
+
+.card h1{
+    text-align: center;margin: 10px;
+}
+.card button{
+    width: 280px;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bolder;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.free{
+    color: #010101;
+    margin-left: 1400px;
+    background-color: rgb(207, 49, 24);
+    
+}
+@media (max-width: 1200px) {
+    .card {
+        width: 80%;
+        margin: 150px auto;
+    }
+}
+
+/* For tablets */
+@media (max-width: 900px) {
+    .card {
+        width: 90%;
+        margin: 100px auto;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+
+    .free {
+        position: static;
+        margin: 20px auto;
+        background-color: rgb(207, 49, 24);
+        color: #fff;
+    }
+}
+
+/* For phones */
+@media (max-width: 500px) {
+    body{
+        width: 100%;
+        height: 932px;
+    }
+    
+ 
+    .card {
+        width:200px ;
+        height: 350px;
+        margin: 3px 1px;
+        margin-left: 10px;
+    }
+
+    .card input,
+    .card button {
+        width:150px;
+        margin-left: 15px;
+        font-size:10px;
+    }
+
+    nav ul li {
+        font-size: 10px;
+        margin-left:1px;
+        margin: 5px;
+    }
+    .card h1{
+        font-size: 10px;
+        margin: 2 auto;
+    }
+
+   
+
+}
